@@ -1,0 +1,58 @@
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th,
+td {
+border: 1px solid #ddd;
+padding: 5px;
+text-align: center;
+vertical-align: middle;
+}
+
+th,td {
+background-color: #f2f2f2;
+font-size: 40px;
+}
+
+/*
+td.class-name-2 {
+font-size: 30px;
+}*/
+
+td:nth-child(n+2) {
+width: calc((100%) / 8);
+}
+
+/* 偶数行の背景色 */
+tr:nth-child(even) td {
+background-color: #D9E4F1;
+}
+
+/* 奇数行の背景色 */
+tr:nth-child(odd) td {
+background-color: #F2F2F2;
+}
+
+th.row-header,
+th.col-header {
+background-color: #4CAF50;
+color: #fff;
+}
+
+th.row-header {
+width: 80px;
+}
+
+th.col-header {
+height: 30px;
+}
+
+td {
+height: 30px;
+}
+a {
+text-decoration: none;
+}
+
