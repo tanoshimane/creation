@@ -5,6 +5,7 @@ async function fetchData() {
     const apiUrl = "https://6g4lt1qeia.execute-api.us-east-2.amazonaws.com/netlifty_api_atage";
     const response = await fetch(apiUrl);
     const data = await response.json();
+    data = JSON.parse(data.body)
     console.log(data);
 }
 
