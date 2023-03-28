@@ -1,14 +1,21 @@
 fetchData();
 
 async function fetchData() {
-    // REST APIのエンドポイントを指定
-    const apiUrl = "https://6g4lt1qeia.execute-api.us-east-2.amazonaws.com/netlifty_api_atage";
-    const response = await fetch(apiUrl);
-    const data = await response.json();
-    console.log(data);
-    console.log(data.body);
-    data = JSON.parse(data.body)
-    console.log(data);
+    try {
+        // REST APIのエンドポイントを指定
+        const apiUrl = "https://6g4lt1qeia.execute-api.us-east-2.amazonaws.com/netlifty_api_atage";
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        console.log(data);
+        console.log(data.body);
+        const parsedData = JSON.parse(data.body);
+        console.log(parsedData);
+    } catch (error) {
+        console.error("Fetch error:", error);
+    }
 }
 
 /*
