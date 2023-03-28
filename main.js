@@ -26,6 +26,7 @@ async function sendData() {
         const postResp = await response.json();
         console.log(postResp);
         const data = JSON.parse(postResp.body);
+        console.log(data);
     } catch (error) {
         console.error("Fetch error:", error);
     }
