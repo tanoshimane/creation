@@ -23,8 +23,9 @@ async function sendData() {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const data = await response.json();
-        console.log(data);
+        const postResp = await response.json();
+        console.log(postResp);
+        const data = JSON.parse(postResp.body);
     } catch (error) {
         console.error("Fetch error:", error);
     }
