@@ -1,7 +1,10 @@
-const arr = [
-    [1, 2, 3],
-    [4, 5, 6]
-];
+async function tableCreate(){
+    const arr = [
+        [1, 2, 3],
+        [4, 5, 6]
+    ];
+    createTableFromArray(arr)
+}
 
 function createTableFromArray(array) {
     const table = document.getElementById("my-tbody");
@@ -16,4 +19,3 @@ function createTableFromArray(array) {
         table.appendChild(row);
     }
 }
-createTableFromArray(arr);
