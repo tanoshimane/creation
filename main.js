@@ -1,4 +1,4 @@
-fetchData();
+sendData();
 
 async function sendData() {
     try {
