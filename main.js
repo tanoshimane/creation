@@ -4,7 +4,8 @@ async function fetchData() {
     // REST APIのエンドポイントを指定
     const apiUrl = "https://6g4lt1qeia.execute-api.us-east-2.amazonaws.com/netlifty_api_atage";
     const response = await fetch(apiUrl);
-    console.log(response);
+    const data = await response.json();
+    console.log(data);
 }
 
 /*
