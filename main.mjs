@@ -4,10 +4,6 @@ main();
 async function main(){
     const respAws = await awsApi.awsPost();
     console.log(respAws);
-    const arr = [
-        [1, 2, 3],
-        [4, 5, 6]
-    ];
-    const respTablecreate = await table.tableCreate(arr);
+    const respTablecreate = await table.tableCreate(respAws.week,respAws.kintoneRecord,respAws.dateKey,respAws.colTexts);
 }
 

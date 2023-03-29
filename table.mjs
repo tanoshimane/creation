@@ -7,6 +7,7 @@ export const tableCreate = async (arr) => {
 export const tableCreate = async (week,kintoneRecord,dateKey,colTexts) => {
     //ヘッダー作成
     let headerTexts = week;
+    console.log(headerTexts);
     headerTexts.md.unshift(" ");
     headerTexts.ymd.unshift(" ");
     const thead = document.getElementById('my-thead');
