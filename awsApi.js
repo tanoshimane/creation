@@ -1,4 +1,4 @@
-async function awsPost() {
+export const awsPost = async () => {
     try {
         const apiUrl = "https://6g4lt1qeia.execute-api.us-east-2.amazonaws.com/netlifty_api_atage";
         const jsonData = {
