@@ -1,9 +1,3 @@
-/*
-export const tableCreate = async (arr) => {
-    
-    createTableFromArray(arr)
-}
-*/
 export const tableCreate = async (week,kintoneRecord,dateKey,colTexts) => {
     //ヘッダー作成
     let headerTexts = week;
@@ -22,9 +16,6 @@ export const tableCreate = async (week,kintoneRecord,dateKey,colTexts) => {
 
     //テーブル本文
     let table = [];
-    //let kintoneRecord = await run("kintone_get","creation-takasaki",55,"wOW45LLBe9Om99ovfaGqdizguYYKYvNEpF73RMhf");
-    //let dateKey = await run("dateKey",kintoneRecord);
-    //const colTexts = await run("createHourArray",9, 18, 30);
     for (let i = 0; i < colTexts.length; i++) {
       table.push([colTexts[i]])
       for (let j = 1; j < 8; j++) {
