@@ -2,7 +2,6 @@ import * as awsApi from './awsApi.mjs';
 import * as table from './table.mjs';
 main();
 async function main(){
-    console.log(now.format("YYYY/MM/DD HH:mm:ss"));
     const respAws = await awsApi.awsPost();
     console.log(respAws);
     const arr = [
