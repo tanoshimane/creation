@@ -1,6 +1,6 @@
 import * as awsApi from './awsApi.mjs';
 import * as table from './table.mjs';
-import dayjs from 'dayjs'
+import dayjs from 'https://cdn.jsdelivr.net/npm/dayjs@1.10.7/dayjs.min.js';
 main();
 async function main(){
     const now = dayjs();
