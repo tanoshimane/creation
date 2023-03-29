@@ -1,5 +1,5 @@
-import * as awsApi from 'awsApi.js';
-import * as table from 'table.js';
+const awsApi = require(awsApi);
+const table = require(table);
 main();
 async function main(){
     const respAws = await awsApi.awsPost();
