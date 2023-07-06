@@ -34,7 +34,9 @@ export const tableCreate = async (week,kintoneRecord,dateKey,colTexts) => {
         const cell = document.createElement("td");
         if(table[i][j] == "〇"){
           let link = document.createElement("a");
-          link.href = `form.html?${headerTexts.md[j]}-${table[i][0]}`;
+          let date = dayjs(headerTexts.md[j], 'MM/DD');
+          date = date.year(2023);
+          link.href = `form.html?${date.format('YYYY-MM-DD')}-${table[i][0]}`;
           link.textContent = table[i][j]
           cell.appendChild(link);
         }else{
