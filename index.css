@@ -55,3 +55,8 @@ a {
 text-decoration: none;
 }
 
+#calendar-controls {
+    width: 300px;  /* 幅を300pxに設定 */
+    height: 50px;  /* 高さを50pxに設定 */
+}
+
