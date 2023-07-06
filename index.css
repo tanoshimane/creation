@@ -69,3 +69,7 @@ text-decoration: none;
     font-size: 14px; /* フォントの大きさを14pxに設定 */
 }
 
+#calendar-controls {
+    margin-bottom: 20px;
+}
+
