@@ -8,3 +8,12 @@ async function main(){
     const respTablecreate = await table.tableCreate(respAws.week,respAws.kintoneRecord,respAws.dateKey,respAws.colTexts);
 }
 
+document.getElementById('left-arrow').addEventListener('click', function() {
+    console.log('Left arrow clicked!');
+    // ここで何らかの処理を行う
+});
+
+document.getElementById('right-arrow').addEventListener('click', function() {
+    console.log('Right arrow clicked!');
+    // ここで何らかの処理を行う
+});
