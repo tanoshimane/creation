@@ -17,3 +17,8 @@ document.getElementById('right-arrow').addEventListener('click', function() {
     console.log('Right arrow clicked!');
     // ここで何らかの処理を行う
 });
+
+document.getElementById('date-input').addEventListener('change', function() {
+    console.log('Date input changed to ' + this.value);
+    // ここで何らかの処理を行う
+});
