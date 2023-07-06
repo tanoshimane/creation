@@ -2,6 +2,8 @@ import * as awsApi from './awsApi.mjs';
 import * as table from './table.mjs';
 main();
 async function main(){
+    let today = dayjs().format('YYYY-MM-DD');
+    document.getElementById('date-input').value = today;
     const awsBody = {code:"main"};
     const respAws = await awsApi.awsPost(awsBody);
     console.log(respAws);
