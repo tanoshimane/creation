@@ -22,5 +22,5 @@ document.getElementById('right-arrow').addEventListener('click', async function(
 
 document.getElementById('date-input').addEventListener('change', async function() {
     console.log('Date input changed to ' + this.value);
-    const respTablecreate = await table.tableCreate(respAws.week,respAws.kintoneRecord,respAws.dateKey,respAws.colTexts);
+    //const respTablecreate = await table.tableCreate(respAws.week,respAws.kintoneRecord,respAws.dateKey,respAws.colTexts);
 });
