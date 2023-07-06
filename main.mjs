@@ -2,7 +2,7 @@ import * as awsApi from './awsApi.mjs';
 import * as table from './table.mjs';
 main();
 async function main(targetDay){
-    targetDay = !targetDayday ? targetDay : dayjs().format('YYYY-MM-DD');
+    targetDay = !targetDay ? targetDay : dayjs().format('YYYY-MM-DD');
     document.getElementById('date-input').value = today;
     const awsBody = {code:"main"};
     const respAws = await awsApi.awsPost(awsBody);
