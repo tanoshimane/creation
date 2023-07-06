@@ -57,9 +57,9 @@ text-decoration: none;
 
 #date-input {
     width: 150px;
-    height: 20px;
+    height: 19px;
     padding: 5px; /* 内側のパディングを5pxに設定 */
-    font-size: 20px; /* フォントの大きさを14pxに設定 */
+    font-size: 18px; /* フォントの大きさを14pxに設定 */
 }
 
 #left-arrow, #right-arrow {
