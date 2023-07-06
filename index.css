@@ -56,10 +56,10 @@ text-decoration: none;
 }
 
 #date-input {
-    width: 200px;
-    height: 30px;
+    width: 15px;
+    height: 25px;
     padding: 5px; /* 内側のパディングを5pxに設定 */
-    font-size: 14px; /* フォントの大きさを14pxに設定 */
+    font-size: 20px; /* フォントの大きさを14pxに設定 */
 }
 
 #left-arrow, #right-arrow {
