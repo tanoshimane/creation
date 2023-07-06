@@ -25,7 +25,6 @@ export const tableCreate = async (week,kintoneRecord,dateKey,colTexts) => {
         }else{
           table[i].push("〇");
         }
-        
       }
     }
     const tbody = document.getElementById("my-tbody");
@@ -35,7 +34,7 @@ export const tableCreate = async (week,kintoneRecord,dateKey,colTexts) => {
         const cell = document.createElement("td");
         if(table[i][j] == "〇"){
           let link = document.createElement("a");
-          link.href = `form.html?${i}${j}`;
+          link.href = `form.html?${table[0][j]}`;
           link.textContent = table[i][j]
           cell.appendChild(link);
         }else{
