@@ -3,6 +3,7 @@ import * as table from './table.mjs';
 main();
 async function main(targetDay){
     targetDay = !targetDay ? targetDay : dayjs().format('YYYY-MM-DD');
+    console.log(targetDay);
     document.getElementById('date-input').value = targetDay;
     const awsBody = {code:"main"};
     const respAws = await awsApi.awsPost(awsBody);
