@@ -25,7 +25,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     }
 });
 
-document.getElementById("notes").addEventListener("focus", function() {
+document.getElementById("textarea").addEventListener("focus", function() {
     if (this.value === "備考：") {
       this.value = "";
     }
