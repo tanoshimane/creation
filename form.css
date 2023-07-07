@@ -47,8 +47,8 @@ textarea {
 }
 
 button#submit {
-  padding: 20px 40px; /* 内側のスペースを2倍にする */
-  font-size: 30px; /* テキストの大きさを2倍にする */
+  padding: 40px 60px; /* 内側のスペースを2倍にする */
+  font-size: 60px; /* テキストの大きさを2倍にする */
 }
 
 button[type="submit"] {
