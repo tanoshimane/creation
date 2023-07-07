@@ -41,3 +41,9 @@ button[type="submit"] {
   cursor: pointer;
   margin-bottom: 40px; /* 2倍にします */
 }
+
+@media screen and (max-width: 600px) {
+  #myForm {
+    width: 100%;
+  }
+}
