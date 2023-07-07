@@ -11,6 +11,10 @@ label {
   font-size: 60px;
 }
 
+label > label {
+  display: block;
+}
+
 input[type="text"],
 input[type="number"] {
   display: block;
