@@ -8,19 +8,16 @@
   <body>
     <h1>予約登録フォーム</h1>
     <form id="myForm">
-      <label>
-        ご予約日時：<input type="text" id="reservDate" />
-      </label>
-      <label>
-        貴社名：<input type="text" name="name" />
-      </label>
-      <label>
-        ご担当者様名：<input type="text" name="name" />
-      </label>
+      <label>ご予約日時：<input type="text" id="reservDate" /></label>
+      <label>貴社名：<input type="text" name="companyName" /></label>
+      <label>ご担当者名：<input type="text" name="personName" /></label>
+      <label>電話番号：<input type="text" name="tel" /></label>
       <label>
         予約内容：
-        <label><input type="radio" name="" value="male" />タイヤ交換</label>
-        <label><input type="radio" name="gender" value="female" />車検</label>
+        <label><input type="radio" name="service" value="tireChange" />タイヤ交換</label>
+        <label><input type="radio" name="service" value="oilChange" />オイル交換</label>
+        <label><input type="radio" name="service" value="vehicleInspection" />車検</label>
+        <label><input type="radio" name="service" value="inspection" />点検</label>
       </label>
       <br />
       <button type="submit" onclick="form()">送信</button>
