@@ -12,7 +12,7 @@ async function initialSetting(){
     let urlParams = new URLSearchParams(window.location.search);
     let paramValue = urlParams.get('param');
     console.log(paramValue);
-    const reservDate = document.getElementById('reservDate');
+    let reservDate = document.getElementById('reservDate');
     reservDate.value = paramValue;
-    reservDate.disabled = false;
+    reservDate.disabled = true;
 }
