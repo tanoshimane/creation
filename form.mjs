@@ -10,7 +10,7 @@ async function main(){
 
 async function initialSetting(){
     let urlParams = new URLSearchParams(window.location.search);
-    let paramValue = urlParams.get('param');
+    let paramValue = urlParams.get('params');
     console.log(paramValue);
     let reservDate = document.getElementById('reservDate');
     reservDate.value = paramValue;
