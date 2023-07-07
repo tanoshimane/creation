@@ -3,6 +3,10 @@
   margin: 10px auto;
 }
 
+h1 {
+  font-size: 60px;
+}
+
 label {
   font-size: 60px;
 }
