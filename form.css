@@ -1,6 +1,6 @@
 #myForm {
   width: 100%; /* 元が50%なので2倍にすると100% */
-  margin: 0 auto;
+  margin: 10 auto;
 }
 
 label {
