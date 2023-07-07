@@ -1,43 +1,43 @@
 #myForm {
-  width: 50%;
+  width: 100%; /* 元が50%なので2倍にすると100% */
   margin: 0 auto;
 }
 
 input[type="text"],
 input[type="number"] {
   display: block;
-  margin-top: 5px;
-  margin-bottom: 10px; /* 行間を10pxに設定 */
-  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px; /* 2倍にします */
+  padding: 10px; /* 2倍にします */
   border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 16px;
+  border-radius: 6px; /* 2倍にします */
+  font-size: 32px; /* 2倍にします */
 }
 
 input[type="radio"]{
   display: inline-block;
-  margin-top: 30px;
-  margin-bottom: 30px; /* 行間を10pxに設定 */
-  padding: 5px;
+  margin-top: 60px; /* 2倍にします */
+  margin-bottom: 60px; /* 2倍にします */
+  padding: 10px; /* 2倍にします */
   border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 16px;
+  border-radius: 6px; /* 2倍にします */
+  font-size: 32px; /* 2倍にします */
 }
 
 textarea {
-  height: 100px; /* 高さを指定 */
-  border: 1px solid #ccc; /* 境界線のスタイルを設定 */
-  border-radius: 3px; /* 枠線の角丸を指定 */
-  padding: 5px; /* 内側の余白を指定 */
-  font-size: 16px; /* フォントサイズを指定 */
+  height: 200px; /* 2倍にします */
+  border: 1px solid #ccc; 
+  border-radius: 6px; /* 2倍にします */
+  padding: 10px; /* 2倍にします */
+  font-size: 32px; /* 2倍にします */
 }
 
 button[type="submit"] {
   background-color: #4CAF50;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 40px; /* 2倍にします */
   border: none;
-  border-radius: 4px;
+  border-radius: 8px; /* 2倍にします */
   cursor: pointer;
-  margin-bottom: 20px; /* 行間を20pxに設定 */
+  margin-bottom: 40px; /* 2倍にします */
 }
