@@ -24,3 +24,9 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
       alert("ナンバーは4文字以内で入力してください");
     }
 });
+
+document.getElementById("notes").addEventListener("focus", function() {
+    if (this.value === "備考：") {
+      this.value = "";
+    }
+});
