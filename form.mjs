@@ -16,3 +16,11 @@ async function initialSetting(){
     reservDate.value = paramValue;
     reservDate.disabled = true;
 }
+
+document.getElementById("myForm").addEventListener("submit", function(event) {
+    const number = document.getElementById("Number").value;
+    if (number.length > 4) {
+      event.preventDefault();
+      alert("ナンバーは4文字以内で入力してください");
+    }
+});
