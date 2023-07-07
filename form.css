@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+label {
+  font-size: 60px;
+}
+
 input[type="text"],
 input[type="number"] {
   display: block;
