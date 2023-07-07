@@ -46,6 +46,11 @@ textarea {
   font-size: 60px; /* 2倍にします */
 }
 
+button#submit {
+  padding: 20px 40px; /* 内側のスペースを2倍にする */
+  font-size: 30px; /* テキストの大きさを2倍にする */
+}
+
 button[type="submit"] {
   background-color: #4CAF50;
   color: white;
