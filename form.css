@@ -23,7 +23,7 @@ input[type="number"] {
   padding: 10px; /* 2倍にします */
   border: 1px solid #ccc;
   border-radius: 6px; /* 2倍にします */
-  font-size: 60px; /* 2倍にします */
+  font-size: 30px; /* 2倍にします */
 }
 
 input[type="radio"]{
@@ -34,6 +34,7 @@ input[type="radio"]{
   border: 1px solid #ccc;
   border-radius: 6px; /* 2倍にします */
   font-size: 60px; /* 2倍にします */
+  transform: scale(10);
 }
 
 textarea {
