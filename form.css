@@ -29,8 +29,8 @@ input[type="number"] {
 
 input[type="radio"]{
   display: inline-block;
-  margin-top: 60px; /* 2倍にします */
-  margin-bottom: 60px; /* 2倍にします */
+  margin-top: 30px; /* 2倍にします */
+  margin-bottom: 30px; /* 2倍にします */
   /*adding: 10px; /* 2倍にします */
   border: 1px solid #ccc;
   border-radius: 6px; /* 2倍にします */
