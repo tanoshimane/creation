@@ -8,23 +8,23 @@
   <body>
     <h1>予約登録フォーム</h1>
     <form id="myForm">
-      <label>ご予約日時：<input type="text" name="reservDate" /></label>
-      <label>貴社名：<input type="text" name="companyName" /></label>
-      <label>ご担当者名：<input type="text" name="personName" /></label>
-      <label>電話番号：<input type="text" name="tel" /></label>
+      <label>ご予約日時：<input type="text" name="reservDate" id="reservDate" /></label>
+      <label>貴社名：<input type="text" name="companyName" id="reservDate" /></label>
+      <label>ご担当者名：<input type="text" name="personName" id="personName" /></label>
+      <label>電話番号：<input type="text" name="tel" id="tel" /></label>
       <br />
       <label>
         予約内容：
-        <label><input type="radio" name="service" value="tireChange" />タイヤ交換</label>
-        <label><input type="radio" name="service" value="oilChange" />オイル交換</label>
-        <label><input type="radio" name="service" value="vehicleInspection" />車検</label>
-        <label><input type="radio" name="service" value="inspection" />点検</label>
+        <label><input type="radio" name="service" id="service1" value="tireChange" />タイヤ交換</label>
+        <label><input type="radio" name="service" id="service2" value="oilChange" />オイル交換</label>
+        <label><input type="radio" name="service" id="service3" value="vehicleInspection" />車検</label>
+        <label><input type="radio" name="service" id="service4" value="inspection" />点検</label>
       </label>
       <br />
-      <label>車種：<input type="text" name="carType" /></label>
-      <label>ナンバー（下4桁）：<input type="text" name="Number" /></label>
+      <label>車種：<input type="text" name="carType" id="carType" /></label>
+      <label>ナンバー（下4桁）：<input type="text" name="Number" id="Number" /></label>
       <br />
-      <textarea rows="4" cols="50">備考：</textarea>
+      <textarea rows="4" cols="50" id="textarea">備考：</textarea>
       <button type="submit" onclick="form()">送信</button>
     </form>
   </body>
